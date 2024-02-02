@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import { Tilt } from 'react-tilt'
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -39,19 +39,15 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Who We Are ?</p>
+        <h2 className={styles.sectionHeadText}>About Us </h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[20px] max-w-3xl leading-[40px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Welcome to Merv Pixel , where we are dedicated to redefining the digital narrative for service-based businesses. Our mission is clear; to propel brands to unprecendeted success through strategic digital growth. At Merv Pixel, we specialize in crafting tailored SEO and Digitall Ads solutions that go beyond conventional approaches. We’re not just a service; we’re your partners in navigating the digital landscape, unlocking accelerated growth and securing a future where your scucess is not just achieved but sustained. join us on this journey, where iinooovation meets excellence, and toegether, we’ll fuel the success of your brand. 
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
